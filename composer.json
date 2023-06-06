@@ -1,0 +1,39 @@
+{
+    "name": "mateokurti/sistem-postar",
+    "type": "project",
+    "autoload": {
+        "psr-4": {
+            "App\\": "app/"
+        }
+    },
+    "authors": [
+        {
+            "name": "Mateo Kurti",
+            "email": "contact@mateokurti.com"
+        },
+        {
+            "name": "Klea Halili",
+            "email": "klea.halili@fshnstudent.info"
+        },
+        {
+            "name": "Igli Koxha",
+            "email": "igli.koxha@fshnstudent.info"
+        },
+        {
+            "name": "Klea Brahimi",
+            "email": "klea.brahimi@fshnstudent.info"
+        },
+        {
+            "name": "Kejdi Hajderasi",
+            "email": "kejdi.hajderasi@fshnstudent.info"
+        }
+    ],
+    "require": {
+        "vlucas/phpdotenv": "^5.5",
+        "google/apiclient": "^2.0",
+        "phpmailer/phpmailer": "^6.8",
+        "endroid/qr-code": "^4.8",
+        "picqer/php-barcode-generator": "^2.2",
+        "pear/http_request2": "^2.5"
+    }
+}
